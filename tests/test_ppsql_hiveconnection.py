@@ -8,6 +8,6 @@ class TestPPSqlHiveConnection(unittest.TestCase):
         with self.assertRaises(TTransportException):
             hc = HiveConnection("fake", "fake", 1234, "GSSAPI", "fake")
             self.assertTrue(hc != None)
-            
+
 if __name__ == '__main__':
     unittest.main()
