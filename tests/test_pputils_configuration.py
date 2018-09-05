@@ -2,7 +2,7 @@ from ppextensions.pputils.utils.configuration import *
 import unittest
 
 class TestPPUtilsConfiguration(unittest.TestCase):
-    
+
     def setUp(self):
         pass
         
